@@ -95,12 +95,12 @@ public class Main {
             }
         }
         System.out.println("\nЗадание 4");
-        int[] arr = {0,1,2,3,4,5,6,7,8,9 };
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] % 2 != 0) {
-                arr[i]++;
+        int[]  numbers = {0,1,2,3,4,5,6,7,8,9 };
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] % 2 != 0) {
+                numbers[i]++;
             }
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(numbers));
     }
 }
